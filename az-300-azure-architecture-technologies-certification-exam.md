@@ -25,6 +25,9 @@ New exam in 2019 - AZ-300 and AZ-301
 * Microsoft Learn portal - https://docs.microsoft.com/en-us/learn/
 * Microsoft handsonlabs - https://www.microsoft.com/handsonlabs/
 * Microsoft Documentation - https://docs.microsoft.com/en-us/azure/
+* Azure Code Samples : https://azure.microsoft.com/en-us/resources/samples/?sort=0
 
-## 2.10 	
-	
+## 2.10 Azure Hands-on Labs
+### Azure Citadel
+Hands-on Labs collection by Community - https://azurecitadel.com/
+
