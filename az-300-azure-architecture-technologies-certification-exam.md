@@ -25,6 +25,6 @@ New exam in 2019 - AZ-300 and AZ-301
 * Microsoft Learn portal - https://docs.microsoft.com/en-us/learn/
 * Microsoft handsonlabs - https://www.microsoft.com/handsonlabs/
 * Microsoft Documentation - https://docs.microsoft.com/en-us/azure/
-	
-	
+
+## 2.10 	
 	
