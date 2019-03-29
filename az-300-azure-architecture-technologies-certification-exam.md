@@ -42,4 +42,13 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 #### 54 Regions
 ![Microsoft Azure Regions](assets/ms-azure-regions-20190329.PNG)
 
+## 4. AZ-300 Create and Configure Virtual Machines
+
+### 4.16 What is a Virtual Machines
+
+#### 6 Categories of Instances
+* General Purpose - B,D,DS,A,DC
+* Compute Optimized (High CPU-Memory Ratio) - F, FS
+* Memory Optimized - E, ES, M, G, GS, D*, DS*
+* 
 
