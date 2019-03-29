@@ -140,6 +140,7 @@ These are scalable virtual machines.
 
 
 ## Appendix
+
 |--|--|
 |AKS		|Azure Container Service |
 
