@@ -39,9 +39,7 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 2010 Feb : Released Windows Azure
 2014 Mar : Microsoft Azure
 
-* 42 Regions
-* 
-![useful image](assets/ms-azure-regions-20190329.PNG)
-
+#### 54 Regions
+![Microsoft Azure Regions](assets/ms-azure-regions-20190329.PNG)
 
 
