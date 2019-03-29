@@ -144,3 +144,6 @@ These are scalable virtual machines.
 |--|--|
 |AKS		|Azure Container Service |
 
+| aa | bb |
+|--|--|
+| cc | dd |
