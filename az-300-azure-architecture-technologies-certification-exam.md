@@ -71,13 +71,39 @@ Make sure you have cleaned all resources not just the VM, during learning. Bette
 ### 4.21 Configure VM for Availability
 Availability Set Vs Availability Zone - #TBD
 
+#### Availability Zone
+Not available on all regions.
+
 #### Availability Set
 Grouping one or more VMs in Availability Set to ensure atleast one is available during maintenance or unplanned outage. 
 
 #### Fault Domain
 Distribute VM to different physical compute resources.
+* Configure Scale Set
+..* Choose Disk Image (OS Flavour)
+..* Choose Resource Group
+..* Choose Location
+..* Choose Availability Zones to be used (add one or more)
+..* Configure instance count
+..* Configure instance type (or size)
+..* Configure minimum and maxium
+..* Conficure CPU threshold % for max and minimum to trigger auto scaling
+..* Configure Type of Traffic (Application Gateway or Load Balancer)
+..* Choose Virtual Network
+..* Choose Public IP needed or not (No need usually)
+
 
 #### Update Domains - #TBD
+
+### 4.22 Monitoring VM
+#### Diagnostics Settings
+* Enable Diagnostics Settings for the VM
+* We can enable log analytics
+* Explore Metrics, also can Pin the same to dashboard
+
+### 4.23 Virtual Machine Scale Set
+These are scalable virtual machines. 
+
 
 
 
