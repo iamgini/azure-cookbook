@@ -65,6 +65,20 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 ### 4.18 Create Virtual Machine
 *Explore by creating a VM, test access, login and play around
 
+### 4.20 Learn How to Cleanup VM
+Make sure you have cleaned all resources not just the VM, during learning. Better goto resource groups and delete resource group itself so that all other items like network, disk etc will get deleted together with VM.
+
+### 4.21 Configure VM for Availability
+Availability Set Vs Availability Zone - #TBD
+
+#### Availability Set
+Grouping one or more VMs in Availability Set to ensure atleast one is available during maintenance or unplanned outage. 
+
+#### Fault Domain
+Distribute VM to different physical compute resources.
+
+#### Update Domains - #TBD
+
 
 
 ## Appendix
