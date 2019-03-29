@@ -104,6 +104,7 @@ These are scalable virtual machines.
   * Choose Virtual Network
   * Choose Public IP needed or not (No need usually)
 
+## Automate Deployment of VM
 
 
 ## Appendix
