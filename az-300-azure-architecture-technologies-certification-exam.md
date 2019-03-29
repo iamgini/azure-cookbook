@@ -91,10 +91,10 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 (*S Stands for SSD ?)
 
 ### 4.17 Azure Portal
-*Explore Azure Portal and interface
+> Explore Azure Portal and interface
 
 ### 4.18 Create Virtual Machine
-*Explore by creating a VM, test access, login and play around
+> Explore by creating a VM, test access, login and play around
 
 ### 4.20 Learn How to Cleanup VM
 Make sure you have cleaned all resources not just the VM, during learning. Better goto resource groups and delete resource group itself so that all other items like network, disk etc will get deleted together with VM.
@@ -139,6 +139,6 @@ These are scalable virtual machines.
 
 
 ## Appendix
-
+|--|--|
 |AKS		|Azure Container Service |
 
