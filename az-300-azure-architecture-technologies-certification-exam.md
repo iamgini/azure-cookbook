@@ -74,6 +74,7 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 2014 Mar : Microsoft Azure
 
 #### 54 Regions
+Refer [Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/) for latest details.
 ![Microsoft Azure Regions](assets/ms-azure-regions-20190329.PNG)
 
 ## 4. AZ-300 Create and Configure Virtual Machines
