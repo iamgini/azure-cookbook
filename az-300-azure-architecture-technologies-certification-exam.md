@@ -3,6 +3,37 @@
 ## Introduction & Pre-Requisite
 This is a summarized document created during my learning time, for quick reference and some of the topics/items are very high-level. If anyone else using this document, I assume you have some basic idea about cloud computing and the way how it is working. (I didn't cover any basic cloud computing notes here; you may request for the same though.)
 
+  * [Introduction & Pre-Requisite](#introduction---pre-requisite)
+  * [1. Quick Start](#1-quick-start)
+  * [2. Inside AZ300](#2-inside-az300)
+    + [2.6. Note About AZ-300 Content](#26-note-about-az-300-content)
+    + [2.7 Exam Overview](#27-exam-overview)
+    + [2.8 Exam Changes](#28-exam-changes)
+    + [2.9 Multi-Channel Learning](#29-multi-channel-learning)
+    + [2.10 Azure Hands-on Labs](#210-azure-hands-on-labs)
+      - [Azure Citadel](#azure-citadel)
+  * [3. Overview of Azure](#3-overview-of-azure)
+    + [3.11 Different Services in Azure](#311-different-services-in-azure)
+    + [3.14 Azure Goes and Regions](#314-azure-goes-and-regions)
+      - [54 Regions](#54-regions)
+  * [4. AZ-300 Create and Configure Virtual Machines](#4-az-300-create-and-configure-virtual-machines)
+    + [4.16 What is a Virtual Machines](#416-what-is-a-virtual-machines)
+      - [6 Categories of Instances](#6-categories-of-instances)
+    + [4.17 Azure Portal](#417-azure-portal)
+    + [4.18 Create Virtual Machine](#418-create-virtual-machine)
+    + [4.20 Learn How to Cleanup VM](#420-learn-how-to-cleanup-vm)
+    + [4.21 Configure VM for Availability](#421-configure-vm-for-availability)
+      - [Availability Zone](#availability-zone)
+      - [Availability Set](#availability-set)
+      - [Fault Domain](#fault-domain)
+      - [Update Domains - #TBD](#update-domains----tbd)
+    + [4.22 Monitoring VM](#422-monitoring-vm)
+      - [Diagnostics Settings](#diagnostics-settings)
+    + [4.23 Virtual Machine Scale Set](#423-virtual-machine-scale-set)
+  * [Automate Deployment of VM](#automate-deployment-of-vm)
+  * [Appendix](#appendix)
+
+
 ## 1. Quick Start
 New exam in 2019 - AZ-300 and AZ-301
 70-535 - Already retired in 2018 and need to take AZ-302 (Transition Exam)
