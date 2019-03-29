@@ -141,9 +141,6 @@ These are scalable virtual machines.
 
 ## Appendix
 
+| Item | Description |
 |--|--|
-|AKS		|Azure Container Service |
-
-| aa | bb |
-|--|--|
-| cc | dd |
+| AKS | Azure Container Service |
