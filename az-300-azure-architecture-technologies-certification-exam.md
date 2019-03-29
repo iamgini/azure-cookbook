@@ -101,7 +101,7 @@ Refer [Regions](https://azure.microsoft.com/en-us/global-infrastructure/regions/
 Make sure you have cleaned all resources not just the VM, during learning. Better goto resource groups and delete resource group itself so that all other items like network, disk etc will get deleted together with VM.
 
 ### 4.21 Configure VM for Availability
-Availability Set Vs Availability Zone - #TBD
+Availability Set Vs Availability Zone - #ToBeRead
 
 #### Availability Zone
 Not available on all regions.
@@ -112,7 +112,7 @@ Grouping one or more VMs in Availability Set to ensure atleast one is available 
 #### Fault Domain
 Distribute VM to different physical compute resources.
 
-#### Update Domains - #TBD
+#### Update Domains - #ToBeRead
 
 ### 4.22 Monitoring VM
 #### Diagnostics Settings
@@ -143,9 +143,15 @@ ARM - Azure Resource Management Model
 * Can modify template to use another VM with new values
 
 > Explore powershell script to create vm.
-
 > Explore [Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/)
 
+## 6. Virtual Machine - Encryption
+### Key Vault
+* Key Vault allows to store keys and secrets
+* Its region wise
+* **#ToBeRead**
+
+## 7. Analyze Resource Utilization & Consumption
 
 
 ## Appendix
