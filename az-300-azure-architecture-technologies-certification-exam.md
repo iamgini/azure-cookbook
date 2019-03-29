@@ -142,6 +142,11 @@ ARM - Azure Resource Management Model
 * You can download the template as json format (or Powershell)
 * Can modify template to use another VM with new values
 
+> Explore powershell script to create vm.
+
+> Explore [Cloud Shell](https://azure.microsoft.com/en-us/features/cloud-shell/)
+
+
 
 ## Appendix
 
