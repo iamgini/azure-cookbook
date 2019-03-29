@@ -26,11 +26,14 @@ This is a summarized document created during my learning time, for quick referen
       - [Availability Zone](#availability-zone)
       - [Availability Set](#availability-set)
       - [Fault Domain](#fault-domain)
-      - [Update Domains - #TBD](#update-domains----tbd)
+      - [Update Domains - #ToBeRead](#update-domains----toberead)
     + [4.22 Monitoring VM](#422-monitoring-vm)
       - [Diagnostics Settings](#diagnostics-settings)
     + [4.23 Virtual Machine Scale Set](#423-virtual-machine-scale-set)
-  * [Automate Deployment of VM](#automate-deployment-of-vm)
+  * [5. Automate Deployment of VM](#5-automate-deployment-of-vm)
+  * [6. Virtual Machine - Encryption](#6-virtual-machine---encryption)
+    + [Key Vault](#key-vault)
+  * [7. Analyze Resource Utilization & Consumption](#7-analyze-resource-utilization---consumption)
   * [Appendix](#appendix)
 
 
