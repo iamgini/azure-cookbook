@@ -50,5 +50,10 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 * General Purpose - B,D,DS,A,DC
 * Compute Optimized (High CPU-Memory Ratio) - F, FS
 * Memory Optimized - E, ES, M, G, GS, D*, DS*
-* 
+* Storage Optimized (High Disk throughput and IO) - LS
+* GPU (For Graphics Rendering) - NV, NC, ND
+* High Performance Compute - H
+
+(*S Stands for SSD ?)
+
 
