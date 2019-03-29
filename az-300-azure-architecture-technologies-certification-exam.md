@@ -63,9 +63,11 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 *Explore Azure Portal and interface
 
 ### 4.18 Create Virtual Machine
+*Explore by creating a VM, test access, login and play around
 
 
 
 ## Appendix
-AKS 	Azure Container Service
+
+|AKS		|Azure Container Service |
 
