@@ -80,17 +80,17 @@ Grouping one or more VMs in Availability Set to ensure atleast one is available 
 #### Fault Domain
 Distribute VM to different physical compute resources.
 * Configure Scale Set
-..* Choose Disk Image (OS Flavour)
-..* Choose Resource Group
-..* Choose Location
-..* Choose Availability Zones to be used (add one or more)
-..* Configure instance count
-..* Configure instance type (or size)
-..* Configure minimum and maxium
-..* Conficure CPU threshold % for max and minimum to trigger auto scaling
-..* Configure Type of Traffic (Application Gateway or Load Balancer)
-..* Choose Virtual Network
-..* Choose Public IP needed or not (No need usually)
+  * Choose Disk Image (OS Flavour)
+  * Choose Resource Group
+  * Choose Location
+  * Choose Availability Zones to be used (add one or more)
+  * Configure instance count
+  * Configure instance type (or size)
+  * Configure minimum and maxium
+  * Conficure CPU threshold % for max and minimum to trigger auto scaling
+  * Configure Type of Traffic (Application Gateway or Load Balancer)
+  * Choose Virtual Network
+  * Choose Public IP needed or not (No need usually)
 
 
 #### Update Domains - #TBD
