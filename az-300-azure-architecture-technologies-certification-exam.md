@@ -1,5 +1,8 @@
 # AZ-300 Azure Architecture Technologies Certification Exam
 
+## Introduction & Pre-Requisite
+This is a summarized document created during my learning time, for quick reference and some of the topics/items are very high-level. If anyone else using this document, I assume you have some basic idea about cloud computing and the way how it is working. (I didn't cover any basic cloud computing notes here; you may request for the same though.)
+
 ## 1. Quick Start
 New exam in 2019 - AZ-300 and AZ-301
 70-535 - Already retired in 2018 and need to take AZ-302 (Transition Exam)
@@ -56,4 +59,13 @@ Hands-on Labs collection by Community - https://azurecitadel.com/
 
 (*S Stands for SSD ?)
 
+### 4.17 Azure Portal
+*Explore Azure Portal and interface
+
+### 4.18 Create Virtual Machine
+
+
+
+## Appendix
+AKS 	Azure Container Service
 
