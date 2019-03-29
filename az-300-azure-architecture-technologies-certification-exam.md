@@ -136,7 +136,11 @@ These are scalable virtual machines.
   * Choose Virtual Network
   * Choose Public IP needed or not (No need usually)
 
-## Automate Deployment of VM
+## 5. Automate Deployment of VM
+ARM - Azure Resource Management Model
+* Use templates to create VM
+* You can download the template as json format (or Powershell)
+* Can modify template to use another VM with new values
 
 
 ## Appendix
@@ -144,3 +148,5 @@ These are scalable virtual machines.
 | Item | Description |
 |--|--|
 | AKS | Azure Container Service |
+| DSC | Desired State Configuration |
+
