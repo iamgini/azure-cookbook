@@ -155,6 +155,13 @@ ARM - Azure Resource Management Model
 * **#ToBeRead**
 
 ## 7. Analyze Resource Utilization & Consumption
+### 7.33 Configure Diagnostic Settings on Resources
+
+Under **Diagnostic Settings** --> Enable Logging
+* You can customize the poling interval for checks like CPU, Memory, etc
+Under **Agent**, find the storage account and disk quota for diagnsotic logs.
+
+Also search for "Monitor" --> to monitor applications and infrastructure
 
 
 ## Appendix
