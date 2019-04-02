@@ -159,9 +159,12 @@ ARM - Azure Resource Management Model
 
 Under **Diagnostic Settings** --> Enable Logging
 * You can customize the poling interval for checks like CPU, Memory, etc
-Under **Agent**, find the storage account and disk quota for diagnsotic logs.
+* **Agent**, find the storage account and disk quota for diagnsotic logs.
+* **Crash dumps** can be enabled 
+* **Sinks** external services to be monitored
 
 Also search for "Monitor" --> to monitor applications and infrastructure
+
 
 
 ## Appendix
