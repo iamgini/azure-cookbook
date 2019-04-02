@@ -34,6 +34,14 @@ This is a summarized document created during my learning time, for quick referen
   * [6. Virtual Machine - Encryption](#6-virtual-machine---encryption)
     + [Key Vault](#key-vault)
   * [7. Analyze Resource Utilization & Consumption](#7-analyze-resource-utilization---consumption)
+    + [7.32 Configure Diagnostic Settings on Resources](#732-configure-diagnostic-settings-on-resources)
+    + [7.33 Create Baseline for Resources](#733-create-baseline-for-resources)
+    + [7.34 Create and Test Alerts](#734-create-and-test-alerts)
+    + [7.35 Create and Test Metrics](#735-create-and-test-metrics)
+    + [7.36 Create Action Groups](#736-create-action-groups)
+    + [7.37 Monitor and Manage Azure Costs](#737-monitor-and-manage-azure-costs)
+    + [7.38 View Alerts in Log Analytics](#738-view-alerts-in-log-analytics)
+  * [8. Create and Configure Storage Accounts](#8-create-and-configure-storage-accounts)
   * [Appendix](#appendix)
 
 
@@ -185,6 +193,22 @@ Remove-AzResourceGroup -Name myResourceGroup
 ### 7.35 Create and Test Metrics
 Goto **Monitor --> Metrics** section
 * Create your own metrics and add items.
+
+### 7.36 Create Action Groups
+* You can add action items (in Action Groups) for metrics as well.
+
+### 7.37 Monitor and Manage Azure Costs
+Goto **Pay-As-You-Go** and find the cost analysis. 
+
+**[Cloudyn](https://www.cloudyn.com/)** will help to manage and overview cost on multiple cloud.
+[Learn more about Cloudyn Service](https://docs.microsoft.com/en-us/azure/cost-management/overview)
+
+### 7.38 View Alerts in Log Analytics
+Goto **Log Analytics**
+* You can create workspace
+* You can add or remove VM's, Storage Accounts, Acitivity Logs etc to the Workspace
+
+## 8. Create and Configure Storage Accounts
 
 
 
