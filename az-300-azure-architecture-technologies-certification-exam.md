@@ -155,7 +155,7 @@ ARM - Azure Resource Management Model
 * **#ToBeRead**
 
 ## 7. Analyze Resource Utilization & Consumption
-### 7.33 Configure Diagnostic Settings on Resources
+### 7.32 Configure Diagnostic Settings on Resources
 
 Under **Diagnostic Settings** --> Enable Logging
 * You can customize the poling interval for checks like CPU, Memory, etc
@@ -164,6 +164,27 @@ Under **Diagnostic Settings** --> Enable Logging
 * **Sinks** external services to be monitored
 
 Also search for "Monitor" --> to monitor applications and infrastructure
+
+* Goto **Insights --> Virtual Machines(Preview)** for Health and Performance Data.
+
+### 7.33 Create Baseline for Resources
+All resources in Azure are stored as PowerShell Scripts or as templates.
+* Goto deployments and see the template for deployment. you can either download the same in different format or can add to your own library for future deployments.
+* You can also create template for [VM Using powershell scripts](https://docs.microsoft.com/en-us/azure/virtual-machines/scripts/virtual-machines-windows-powershell-sample-create-vm) 
+
+**Remove Resources**
+```
+Remove-AzResourceGroup -Name myResourceGroup
+```
+
+### 7.34 Create and Test Alerts
+* New Alert --> Create Rule --> Choose what to monitor --> Configure Signal Topic --> Choose Alerts
+* Define Alert details --> Alert Rule Name --> Add action (eg: EmailtoAdmin) --> Choose Action/Type etc
+* Define Action groups --> Select group (eg: EmailAdmins)
+
+### 7.35 Create and Test Metrics
+Goto **Monitor --> Metrics** section
+* Create your own metrics and add items.
 
 
 
