@@ -209,6 +209,19 @@ Goto **Log Analytics**
 * You can add or remove VM's, Storage Accounts, Acitivity Logs etc to the Workspace
 
 ## 8. Create and Configure Storage Accounts
+### 8.40 Create a Storage Account
+* Create Storage Account
+* Choose account aname and location
+* Choose standard or premium
+* Choose Sub-options as well Tier, Replication, Performance etc)
+* Choose Security, VPN etc
+
+### 8.41 Add Storage Account to a Virtual Network
+* Open Storage Account
+* Goto  Firewall and Virtual Networks
+* Create a Virtual NW
+
+### 8.42 Manage Access Keys and Secure Access Signatures
 
 
 
