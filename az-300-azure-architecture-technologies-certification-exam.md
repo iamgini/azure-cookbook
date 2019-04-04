@@ -250,12 +250,14 @@ Find logs under storage property.
 ## 9. Manage Virtual Networkng
 ### 9.47 Overview of Virtual Networkng
 * Home -> New -> Virtual Network -> Create Virtual Network
-* Give,
+* Choose,
   * Address Space
   * Location
   * Subnet (Any Name)
   * Address Range
-
+  * DDoS protecton needed or not
+  * etc
+	
 
 ## Appendix
 
