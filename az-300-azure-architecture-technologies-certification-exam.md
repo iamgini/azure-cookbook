@@ -222,6 +222,32 @@ Goto **Log Analytics**
 * Create a Virtual NW
 
 ### 8.42 Manage Access Keys and Secure Access Signatures
+Under storage account --> Firewalls and Virtul Networks --> Explore
+
+**Shared Access**
+* You will have 2 access keys. If anything happened on first key you can manage with 2nd key and amend the keys.
+* Also you can adjust permissions (Read only or Right etc)
+
+### 8.43 Storage Explorer
+Just like any other file explorer to manage Azure Storage.
+* You have web version of application
+* You can also download application for windows or other OS 
+
+*You can choose blob type while uploading; see the options available.
+
+### 8.44 Setting up logging and Analytics for Storage
+Find logs under storage property. 
+* You can query for logs as you need.
+
+### 8.45 Configure Storage Redundacy
+* Find Configuration under Storage property.
+* Find Replication
+* Choose the type of replication you need.
+  * Locally-Redundant Storage (LRS)
+  * Geo-Redundant Storage (GRS)
+  * Read-Access Geo-Redundant Storage (RA-GRS)
+  
+  
 
 
 
