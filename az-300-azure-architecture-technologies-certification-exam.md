@@ -266,8 +266,17 @@ You can see the subnets created by default.
 Try adding new subnet and see the difference.
 
 ### 9.48 Public and Private IP Address
+Click on the + sign and create new public IP (search for public IP)
+Give a name and choose other options
 
 ### 9.49 Routing Traffic on a Network
+Create Route Table - how to send or receive traffic over network.
+Create rule -> Choose route and can choose firewall in the middle. 
+Then Associate virtual network and subnet
+
+## 10 Connectivity Between Networks
+
+### 10.51 Introduction to VNET Peering
 
 
 ## Appendix
