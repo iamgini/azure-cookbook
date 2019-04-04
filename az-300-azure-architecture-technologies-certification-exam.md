@@ -233,7 +233,7 @@ Just like any other file explorer to manage Azure Storage.
 * You have web version of application
 * You can also download application for windows or other OS 
 
-*You can choose blob type while uploading; see the options available.
+*You can choose blob type while uploading; see the options available.*
 
 ### 8.44 Setting up logging and Analytics for Storage
 Find logs under storage property. 
