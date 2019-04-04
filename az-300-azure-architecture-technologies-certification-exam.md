@@ -256,8 +256,19 @@ Find logs under storage property.
   * Subnet (Any Name)
   * Address Range
   * DDoS protecton needed or not
+  * Service End Points
+  * Firewall
   * etc
-	
+
+You can see the subnets created by default.
+> There are **5 reservered IP** address.
+
+Try adding new subnet and see the difference.
+
+### 9.48 Public and Private IP Address
+
+### 9.49 Routing Traffic on a Network
+
 
 ## Appendix
 
