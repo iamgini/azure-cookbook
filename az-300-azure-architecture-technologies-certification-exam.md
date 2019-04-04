@@ -247,8 +247,14 @@ Find logs under storage property.
   * Geo-Redundant Storage (GRS)
   * Read-Access Geo-Redundant Storage (RA-GRS)
   
-  
-
+## 9. Manage Virtual Networkng
+### 9.47 Overview of Virtual Networkng
+* Home -> New -> Virtual Network -> Create Virtual Network
+* Give,
+  * Address Space
+  * Location
+  * Subnet (Any Name)
+  * Address Range
 
 
 ## Appendix
