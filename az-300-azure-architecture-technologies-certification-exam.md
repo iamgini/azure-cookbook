@@ -1,5 +1,7 @@
 # AZ-300 Azure Architecture Technologies Certification Exam
 
+Any questions : [Email](mailto:net.gini@gmail.com) | [LinkedIn](http://bit.ly/gineesh) | [www.techbeatly.com](www.techbeatly.com)
+
 ## Introduction & Pre-Requisite
 This is a summarized document created during my learning time, for quick reference and some of the topics/items are very high-level. If anyone else using this document, I assume you have some basic idea about cloud computing and the way how it is working. (I didn't cover any basic cloud computing notes here; you may request for the same though.)
 
