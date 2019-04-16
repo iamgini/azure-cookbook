@@ -272,9 +272,9 @@ Click on the + sign and create new public IP (search for public IP)
 Give a name and choose other options
 
 ### 9.49 Routing Traffic on a Network
-Create Route Table - how to send or receive traffic over network.
-Create rule -> Choose route and can choose firewall in the middle. 
-Then Associate virtual network and subnet
+* Create Route Table - how to send or receive traffic over network.
+* Create rule -> Choose route and can choose firewall in the middle. 
+* Then Associate virtual network and subnet
 
 ## 10 Connectivity Between Networks
 
@@ -284,6 +284,8 @@ Once peered, the virtual networks appear as one, for connectivity purposes. The 
 * VNet peering - connecting VNets within the same Azure region
 * Global VNet peering - connecting VNets across Azure regions
 
+### 10.52 VNET to VNET Communication
+* Create a new Virtual Network Gateway
 
 
 ## Appendix
