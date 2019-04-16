@@ -290,6 +290,6 @@ Once peered, the virtual networks appear as one, for connectivity purposes. The 
 
 | Item | Description |
 |--|--|
-| AKS | Azure Container Service |
+| AKS | Azure Kubernetes Service |
 | DSC | Desired State Configuration |
 
