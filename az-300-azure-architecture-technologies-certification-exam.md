@@ -280,6 +280,9 @@ Then Associate virtual network and subnet
 
 ### 10.51 Introduction to VNET Peering
 Ref : [Virtual network peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)
+Once peered, the virtual networks appear as one, for connectivity purposes. The traffic between virtual machines in the peered virtual networks is routed through the Microsoft backbone infrastructure, much like traffic is routed between virtual machines in the same virtual network, through private IP addresses only. Azure supports:
+* VNet peering - connecting VNets within the same Azure region
+* Global VNet peering - connecting VNets across Azure regions
 
 
 
