@@ -279,6 +279,8 @@ Then Associate virtual network and subnet
 ## 10 Connectivity Between Networks
 
 ### 10.51 Introduction to VNET Peering
+Ref : [Virtual network peering](https://docs.microsoft.com/en-us/azure/virtual-network/virtual-network-peering-overview)
+
 
 
 ## Appendix
