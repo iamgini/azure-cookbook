@@ -285,8 +285,7 @@ Once peered, the virtual networks appear as one, for connectivity purposes. The 
 * Global VNet peering - connecting VNets across Azure regions
 
 ### 10.52 VNET to VNET Communication
-* Create a new Virtual Network Gateway
-
+* Create a new Virtual Network Gateway and
 
 ## Appendix
 
