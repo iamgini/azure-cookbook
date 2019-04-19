@@ -285,7 +285,21 @@ Once peered, the virtual networks appear as one, for connectivity purposes. The 
 * Global VNet peering - connecting VNets across Azure regions
 
 ### 10.52 VNET to VNET Communication
-* Create a new Virtual Network Gateway and
+
+Ref : [Virtual Network pricing](https://azure.microsoft.com/en-us/pricing/details/virtual-network/)
+* Paying for bandwidth
+* Site to site tunnels
+* Create a new Virtual Network Gateway at both VNETs
+  * Gateway Type : VPN
+  * VPN Type : Route Based
+  * Choose the location and choose VNETS
+  * Create Subnet for gateway (choose minimal like /28 as you need this only for gateway purpose)
+  * Create Public IP
+
+## 11 Manage Azure Active Directory
+
+### 11.54 AD Basic vs Premium
+Check : [Azure Active Directory pricing](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
 
 ## Appendix
 
