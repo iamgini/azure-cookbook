@@ -301,6 +301,21 @@ Ref : [Virtual Network pricing](https://azure.microsoft.com/en-us/pricing/detail
 ### 11.54 AD Basic vs Premium
 Check : [Azure Active Directory pricing](https://azure.microsoft.com/en-us/pricing/details/active-directory/)
 
+### 11.55 Create Azure Active Directory Account
+* Goto Marketplace and search for Active Directory
+* Learn about users, groups, memberships, RBAC etc
+
+### 11.56 Assign Custom Domain to Azure AD
+* Goto your Active Directory 
+* Choose custom domain name tab
+* Add custom domain
+* Do verification using txt or mx records
+Then,
+* Try to add a user with email on that custom domain name.
+
+### 11.57 Upgrade Azure AD to Premium 
+
+
 ## Appendix
 
 | Item | Description |
