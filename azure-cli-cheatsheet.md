@@ -18,6 +18,11 @@ Get-AzureRMLog -CorrelationId xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx -DetailedOutp
 
 ## Formatting output
 ```
-Get-AzureRmVMUsage -Location UKSouth | Where-Object {$_.Limit -eq 25000}
+> Get-AzureRmVMUsage -Location UKSouth | Where-Object {$_.Limit -eq 25000}
+> Get-AzureRmVMUsage -Location UKSouth | Where-Object {$_.Name.Value -like "*FS*"}
+Name                       Current Value Limit  Unit
+----                       ------------- -----  ----
+Standard FS Family vCPUs             496   500 Count
+Standard FSv2 Family vCPUs             0   350 Count
 
 ```
