@@ -1,6 +1,12 @@
 # Azure CLI Cheatsheet
 **Powershell and Azure CLI**
 
+## Set Azure Subscription and Tenant
+You need to set this before executing commands if you have multiple subscriptions and tenant ID.
+```
+Select-AzureRmSubscription -TenantId TENANT_ID -SubscriptionId SUBSCRIPTION_ID
+```
+
 ## Get Details
 ```
 Get-AzureRmVM -Name VM_NAME -ResourceGroupName RG_NAME
@@ -8,6 +14,8 @@ Get-AzureRmVM -Name VM_NAME -ResourceGroupName RG_NAME
 Get-AzureRmVMUsage -Location UKSouth                                    
                                     # Get VM Quota Details of location. 
                                     # Remember to set subscription via AzContext
+Get-AzureRmNetworkSecurityGroup -Name NETWORK_SECURITY_GROUP -ResourceGroupName RESOURCE_GROUP |Get-AzureRmNetworkSecurityRuleConfig |? DestinationPortRange -eq 3306 |select Name,DestinationPortRange,SourceAddressPrefix,DestinationAddressPrefix                                    
+                                    #
 ```
 
 ## Troubleshooting
