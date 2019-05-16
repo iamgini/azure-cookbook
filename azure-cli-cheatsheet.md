@@ -14,8 +14,25 @@ Get-AzureRmVM -Name VM_NAME -ResourceGroupName RG_NAME
 Get-AzureRmVMUsage -Location UKSouth                                    
                                     # Get VM Quota Details of location. 
                                     # Remember to set subscription via AzContext
-Get-AzureRmNetworkSecurityGroup -Name NETWORK_SECURITY_GROUP -ResourceGroupName RESOURCE_GROUP |Get-AzureRmNetworkSecurityRuleConfig |? DestinationPortRange -eq 3306 |select Name,DestinationPortRange,SourceAddressPrefix,DestinationAddressPrefix                                    
-                                    #
+```
+# Get details, Filter Out and Select Fields to Display
+1)
+```
+Get-AzureRmNetworkSecurityGroup -Name NETWORK_SECURITY_GROUP -ResourceGroupName RESOURCE_GROUP |Get-AzureRmNetworkSecurityRuleConfig
+                                    # Get rules in Network Security Groups 
+```
+2)
+```
+Get-AzureRmNetworkSecurityGroup -Name NETWORK_SECURITY_GROUP -ResourceGroupName RESOURCE_GROUP |Get-AzureRmNetworkSecurityRuleConfig |? DestinationPortRange -eq 3306   
+                                    # Get rules in Network Security Groups 
+                                    # and Filter with Port
+```
+3)
+```
+Get-AzureRmNetworkSecurityGroup -Name NETWORK_SECURITY_GROUP -ResourceGroupName RESOURCE_GROUP |Get-AzureRmNetworkSecurityRuleConfig |? DestinationPortRange -eq 3306 |select Name,DestinationPortRange,SourceAddressPrefix,DestinationAddressPrefix    
+                                    # Get rules in Network Security Groups 
+                                    # and Filter with Port
+                                    # and show only required fields
 ```
 
 ## Troubleshooting
